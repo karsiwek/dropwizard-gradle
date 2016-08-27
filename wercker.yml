@@ -5,9 +5,9 @@ box: java
 dev:
   steps:
     - script:
-      name: gradle bootRun
+      name: gradle run
       code: |
-        ./gradlew bootRun
+        ./gradlew run
 
 test:
   steps:
