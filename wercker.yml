@@ -8,3 +8,10 @@ dev:
       name: gradle bootRun
       code: |
         ./gradlew bootRun
+
+test:
+  steps:
+    - script:
+      name: gradle test
+      code: |
+        ./gradlew test
